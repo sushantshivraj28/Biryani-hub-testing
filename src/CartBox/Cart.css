@@ -1,0 +1,61 @@
+.body{
+margin: 0;
+padding: 0;
+}
+.cartdiv{
+ color: rgb(0, 2, 128);
+ height: 610px;
+ width: 1430px;
+ background-color:rgba(190, 28, 16, 0.931) ;
+ margin-top: 105px;
+ margin-left: 55px;
+
+ align-items: center;
+
+}
+.cartdiv h2 {
+    color: rgb(255, 255, 255);
+
+}
+.cartcontainer{
+    background-color: rgb(255, 255, 255);
+    height:400px;
+    width: 1400px;
+    padding-top: 0px;
+    overflow-y:scroll;
+
+    margin-left: 15px;
+}
+.carttotal{
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    width: 1400px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.cartitem{
+    height: 130px;
+    width: 1383px;
+    background-color: rgb(253, 255, 255);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 2px;
+    box-shadow: 1px 1px 10px black;
+    
+
+}
+.carttotal button{
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 5px black;
+    background-color: brown;
+    color: white;
+
+}

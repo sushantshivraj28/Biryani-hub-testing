@@ -1,0 +1,118 @@
+*{
+padding: 0;
+margin: 0;
+font-family: 'Reggae One', cursive;
+color:rgb(160, 5, 26);
+}
+
+
+.main{
+    display: flex;
+    padding: 20px 40px;
+    text-align: center;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    position:fixed;
+    width: 100%;
+    box-shadow: 1px 3px 10px rgb(49, 3, 3);
+}
+ul{
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    text-decoration: none;
+}
+.menulink
+{ text-decoration: none;
+margin: 13px;
+ padding-bottom: 10px;
+}
+
+
+
+.searchbar{
+    padding-left: 40px;}
+
+.icon3 {
+   
+    padding-left: 175px;}
+.icon3 li {
+    padding-left: 45px;
+    text-decoration: none;
+}
+.brandname{
+    color:rgb(160, 5, 26);
+}
+.searchbar li input{
+    border-radius: 10px;
+    outline: none;
+    width: 360px;
+    height: 40px;
+    background-color: rgb(240,240,240);
+    border: none;
+    border-top-right-radius:0px;
+    border-bottom-right-radius: 0px;
+    box-shadow: rgb(37, 37, 37)  1px 1px 2px;
+    
+}
+.searchbar li button
+{border-radius: 2px;
+    outline: none;
+    background-color: rgb(240,240,240);
+    border: none;
+    height: 40px;
+    width: 40px;
+    padding-top: 3px;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    box-shadow: rgb(37, 37, 37) 1px 1px 2px ;
+   
+
+}
+.menulink {
+    color: rgb(43, 2, 2);
+   
+}
+.mainnav li 
+{
+    padding-top: 8px;
+}
+.mainnav li{
+    position:relative;
+
+}
+
+.menulink:before {
+    content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(160, 5, 26);
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+    margin-bottom: -5px;
+    
+    
+  }
+ .menulink:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+    color: rgb(255, 127, 170);
+  }
+  .rout{
+      margin-top: 80px;
+
+     
+  }
+ .cartnum{
+   color: rgb(18, 100, 25);
+   text-decoration: none;
+   font-size: 25px;
+    
+ }
+ 
